@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
+.SideBar{
+  border: 1px rgb(33, 34, 38) solid;
+  display: block;
+  width:7%;
+  height: 100vh;
+  background-color: rgb(33, 34, 38);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.MiddleBar{
+  display: block;
+  border: 1px rgb(48, 49, 54) solid;
+  width:23%;
+  background-color: rgb(48, 49, 54);
+  height: 100vh;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.MainLayout{
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+hr{
+  border-color: rgb(53, 56, 63);
+}
+
+
+.inputMiddle{
+  background-color: rgb(33, 34, 38);
+  width:90%;
+  border: 1px solid;
+  border-radius: 4px;
+  height:4.5vh;
+  color: white;
+}
+.MiddleUpper{
+  display: flex;
+  justify-content: center;
+}
+.frndormessage{
+  display: grid;
+  grid-template-columns: 10% 90%;
+  position: relative;
+  left:10%;
+  grid-gap:0 10%;
+  color: rgb(150, 150, 150);
+}
+
+.online{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+#dirmessg{
+  position: relative;
+  left:10%;
+  padding-top: 5%;
+}
+.plus{
+  float: left;
+}
+#grps{
+  position: relative;
+  left:5%;
+  color: rgb(150, 150, 150);
+}
+.group{
+  display: flex;
+  flex-direction: row;
+  gap: 2vh;
+}
+.icon{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width:10%;
+  height: 4vh;  
+}
+@media screen and (min-width:275px) and (max-width:500px) {
+  .group  p{
+    width:2%;
   }
-  to {
-    transform: rotate(360deg);
+  .icon{
+    background-color: blue;
   }
+}
+.green{
+  background-color: rgb(0, 182, 0);
+}
+
+.yellow{
+  background-color: yellow;
+}
+.orange{
+  background-color: orange;
+}
+.red{
+  background-color: red;
+}
+.beardedbrro{
+  display: flex;
+}
+.mssgrequest{
+
+  width:70%;
+  height: 100vh;
+    background-color: rgb(53, 56, 63);
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    
+}
+.inputmessage{
+  
+  background-color: rgb(33, 34, 38);
+  width:90%;
+  border: 1px solid;
+  border-radius: 4px;
+  height:4.5vh;
+  color: white;
+}
+.inputdivmessage{
+  padding-top: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+#usergrp{
+  font-size: medium;
+}
+.pointer{
+  cursor: pointer;
 }

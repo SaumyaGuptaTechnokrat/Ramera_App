@@ -1,0 +1,68 @@
+.MainInterface{
+  
+    width:70%;
+    height: 100vh;
+      background-color: rgb(53, 56, 63);
+  
+  }
+  .Aswitchbar{
+    display: inline;
+    width: 20%; 
+    text-align: center; 
+    padding: 20px; 
+    height: 10px;
+    color: white;
+  }
+  .UpperDivBox{
+  
+    width:100%;
+    border: 1px rgb(53, 56, 63)  solid;
+    cursor: pointer;
+    height:4.7vh;
+  
+  
+  }
+  .UpperDivBox div:active{
+    background-color: rgb(71, 72, 73);
+  }
+  .inputbox{
+    background-color: rgb(33, 34, 38);
+    width:90%;
+    border: 1px solid;
+    border-radius: 4px;
+    height:4.5vh;
+    color: white;
+  }
+  #inputdiv{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Friends{
+    border: 1px white solid;
+    display: flex;
+    width:100%;
+    height: 37%;
+    color: white;
+  }
+  .Online{
+    display: flex;
+    padding-top:10px;
+    width:90%;
+    padding-top: 10px;
+    height: 37%;
+    color: white;
+  
+  }
+  #addfrnd{
+    background-color: green;
+    border: 1px green solid;
+    border-radius: 10%;
+    cursor: pointer;
+  }
+  .frnd{
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+  }      
